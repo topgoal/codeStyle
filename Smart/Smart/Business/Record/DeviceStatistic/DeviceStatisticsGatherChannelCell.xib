@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="DeviceStatisticsGatherChannelCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeviceStatisticsGatherChannelCell" id="KGk-i7-Jjw" customClass="DeviceStatisticsGatherChannelCell" customModule="Smart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpn-iM-vTV">
+                        <rect key="frame" x="2" y="12" width="5" height="20"/>
+                        <color key="backgroundColor" red="0.18039215689999999" green="0.81960784310000001" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="5" id="hwf-hi-Qfv"/>
+                            <constraint firstAttribute="height" constant="20" id="x1y-Dc-KzU"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3Y-eF-VdZ">
+                        <rect key="frame" x="120" y="8" width="80" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="fEP-3v-OzQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="c3Y-eF-VdZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="7Nu-mP-Ft2"/>
+                    <constraint firstItem="bpn-iM-vTV" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KjJ-hO-gaP"/>
+                    <constraint firstItem="c3Y-eF-VdZ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="LtX-HC-Pc5"/>
+                    <constraint firstItem="c3Y-eF-VdZ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TTh-tO-77y"/>
+                    <constraint firstAttribute="bottom" secondItem="c3Y-eF-VdZ" secondAttribute="bottom" constant="8" id="YCA-X7-MbA"/>
+                    <constraint firstItem="bpn-iM-vTV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="ccA-qM-ibo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="isSelectedView" destination="bpn-iM-vTV" id="yUY-te-5mr"/>
+                <outlet property="nameLabel" destination="c3Y-eF-VdZ" id="irY-j9-mNF"/>
+            </connections>
+            <point key="canvasLocation" x="-951" y="94"/>
+        </tableViewCell>
+    </objects>
+</document>

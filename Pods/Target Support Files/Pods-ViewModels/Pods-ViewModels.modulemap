@@ -1,0 +1,6 @@
+framework module Pods_ViewModels {
+  umbrella header "Pods-ViewModels-umbrella.h"
+
+  export *
+  module * { export * }
+}

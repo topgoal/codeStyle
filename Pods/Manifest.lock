@@ -1,0 +1,111 @@
+PODS:
+  - Alamofire (4.7.2)
+  - AutoInsetter (1.2.3)
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - Differentiator (3.0.2)
+  - FSPagerView (0.8.2)
+  - Hue (3.0.1)
+  - IQKeyboardManagerSwift (6.0.2)
+  - JCore (1.2.2)
+  - JPush (3.1.0):
+    - JCore (~> 1.2.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - Pageboy (2.5.1)
+  - Result (3.2.4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (1.2.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SwiftDate (4.5.1)
+  - SwiftLint (0.31.0)
+  - SwiftyUserDefaults (3.0.1)
+  - Tabman (1.8.2):
+    - AutoInsetter (~> 1.2.0)
+    - Pageboy (~> 2.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Charts
+  - FSPagerView
+  - Hue
+  - IQKeyboardManagerSwift
+  - JPush (= 3.1.0)
+  - MBProgressHUD
+  - MJRefresh
+  - Moya/RxSwift
+  - RxCocoa (~> 4.0)
+  - RxDataSources (~> 3.0)
+  - RxGesture
+  - RxSwift
+  - SwiftDate
+  - SwiftLint
+  - SwiftyUserDefaults
+  - Tabman (~> 1.8.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AutoInsetter
+    - Charts
+    - Differentiator
+    - FSPagerView
+    - Hue
+    - IQKeyboardManagerSwift
+    - JCore
+    - JPush
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - Pageboy
+    - Result
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxSwift
+    - SwiftDate
+    - SwiftLint
+    - SwiftyUserDefaults
+    - Tabman
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AutoInsetter: 1a8f8ad5e7da8e993970b3809cfb8e8e330f4db1
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  FSPagerView: 816a18842306973cc7cc6df8a5332272f7815c30
+  Hue: 93e852fa6211ab35922ad8c293f51c43d6c79eb2
+  IQKeyboardManagerSwift: 59d4b0e140bc546c3c76ae5bb35b3dafd10b8172
+  JCore: f14c0549968a63c22e246a4875aa9d428446f373
+  JPush: 5921e25ad13e0386351079217b009f2039084eac
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Pageboy: f0295ea949f0b0123a1b486fd347ea892d0078e0
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SwiftDate: 7b56d42a221f582047287deb256b23fc5ed49a60
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+  Tabman: 69ce69b44cec1ad693b82c24cdbdf0c45915668c
+
+PODFILE CHECKSUM: adb1bcd4b46f2004c322957535f62f63269dfc84
+
+COCOAPODS: 1.6.1

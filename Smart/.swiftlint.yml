@@ -1,0 +1,14 @@
+line_length:
+    warning: 250
+
+identifier_name:
+    min_length: 2
+
+disabled_rules: # rule identifiers to exclude from running
+    - force_cast
+    - trailing_whitespace
+    - cyclomatic_complexity
+    - unused_closure_parameter
+
+function_body_length:
+    warning: 80
